@@ -12,4 +12,4 @@ The reason why URLs should be optimized is to rank better in search results and 
 
 ## Sources
 [Gophercises](https://gophercises.com/)<br>
-[LogRockets](https://blog.logrocket.com/creating-a-web-server-with-golang/).
+[LogRockets](https://blog.logrocket.com/creating-a-web-server-with-golang/)
