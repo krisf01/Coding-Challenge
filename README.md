@@ -1,1 +1,1 @@
-# ShortyResty-Secureworks
+# ShortyResty
