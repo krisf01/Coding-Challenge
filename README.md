@@ -31,7 +31,7 @@ Test Results of the GET request:
 >  Closing connection 0<br>
 
 
-## Sources
+## Reources
 [Gophercises](https://gophercises.com/)<br>
 [LogRockets](https://blog.logrocket.com/creating-a-web-server-with-golang/)<br>
 [Intersog](https://intersog.com/blog/how-to-write-a-custom-url-shortener-using-golang-and-redis/)<br>
