@@ -9,6 +9,7 @@ The reason why URLs should be optimized is to rank better in search results and 
 ## Specifications
 
 ## Tests
+Test ShortyResty.go using curl within the second terminal<br>
 
 ## Sources
 [Gophercises](https://gophercises.com/)<br>
