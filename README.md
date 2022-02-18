@@ -31,4 +31,5 @@ Test Results of the GET request:
 
 ## Sources
 [Gophercises](https://gophercises.com/)<br>
-[LogRockets](https://blog.logrocket.com/creating-a-web-server-with-golang/)
+[LogRockets](https://blog.logrocket.com/creating-a-web-server-with-golang/)<br>
+[Intersog](https://intersog.com/blog/how-to-write-a-custom-url-shortener-using-golang-and-redis/)
