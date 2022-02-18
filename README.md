@@ -32,9 +32,9 @@ Test Results of the GET request:
 
 
 ## Resources
-[Gophercises](https://gophercises.com/)<br>
-[LogRockets](https://blog.logrocket.com/creating-a-web-server-with-golang/)<br>
-[Intersog](https://intersog.com/blog/how-to-write-a-custom-url-shortener-using-golang-and-redis/)<br>
-[bindersfullofcode](http://bindersfullofcode.com/2019/02/12/golang-url-shortener.html)<br>
-[The Polyglot Developer](https://www.youtube.com/watch?v=OVBvOuxbpHA)<br>
-[Documenting APIs](https://idratherbewriting.com/learnapidoc/docapis_install_curl.html)
+* [Gophercises: URL Shortener](https://gophercises.com/)<br>
+* [LogRockets: Creating a Web Server with Golang](https://blog.logrocket.com/creating-a-web-server-with-golang/)<br>
+* [Intersog: How to Make a Custom URL Shortener Using Golang and Redis](https://intersog.com/blog/how-to-write-a-custom-url-shortener-using-golang-and-redis/)<br>
+* [bindersfullofcode: Writing a URL Shortener in Go](http://bindersfullofcode.com/2019/02/12/golang-url-shortener.html)<br>
+* [The Polyglot Developer: Create a URL Shortener with GOlang and Couchbase NoSQL](https://www.youtube.com/watch?v=OVBvOuxbpHA)<br>
+* [Documenting APIs: curl into and installation](https://idratherbewriting.com/learnapidoc/docapis_install_curl.html)
