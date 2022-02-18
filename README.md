@@ -9,6 +9,9 @@ The reason why URLs should be optimized is to rank better in search results and 
 ## Specifications
 
 ## Tests
+Test ShortyResty.go using curl within the second terminal. <br>
+Test Results of the GET request:
+
 >    Trying 127.0.0.1... <br>
 >  TCP_NODELAY set<br>
 >  Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)<br>
