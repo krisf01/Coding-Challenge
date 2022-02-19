@@ -10,8 +10,8 @@ There are many advantages to shortened URLs as they are beneficial for businesse
 * Create a web server on port 8080 using standard library "net/http" <br>
 * The program then responds to a POST request, and the endpoint should be a POST method with URL/shorten <br>
   * The request should be in JSON as {“url”: “http://example.com/verylonguselessURLthatdoesnotseemtoend/123”}<br>
-  * The reponse should be in JSON as {“short_url”: “http://127.0.0.1:8080/xxxxxxxx”} with an ID of a random string length of eight and be organized through the use of a map <br>
-* The program then redirects the user when making a GET request, as the endpoint should be a GET method with URL/$ID. The request should be in the brower and or client to http://127.0.0.1:8080/ID and have 302 redirect the user to the long form of the URL
+  * The response should be in JSON as {“short_url”: “http://127.0.0.1:8080/xxxxxxxx”} with an ID of a random string length of eight and be organized through the use of a map <br>
+* The program then redirects the user when making a GET request, as the endpoint should be a GET method with URL/$ID. The request should be in the browser and or client to http://127.0.0.1:8080/ID and have 302 redirect the user to the long form of the URL
 
 ## Tests
 Test ShortyResty.go using curl within the second terminal. <br>
