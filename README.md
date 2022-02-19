@@ -31,6 +31,10 @@ Test Results of the GET request:
 >  <br>
 >  Connection #0 to host 127.0.0.1 left intact<br>
 >  Closing connection 0<br>
+>  
+Test Results of the POST request:
+
+Test Results of the Unit Test for HTTP Handler:
 
 
 ## Resources
