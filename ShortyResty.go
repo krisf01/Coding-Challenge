@@ -63,7 +63,6 @@ func shorten(writer http.ResponseWriter, req *http.Request){
 	var exists bool = true
 	var id string
 
-
 	// Label HTTP header and request the header to be returned
 	writer.Header().Set("POST Request Content Type: ", "application/json")
 	writer.WriteHeader(http.StatusCreated)
