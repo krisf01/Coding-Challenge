@@ -49,7 +49,7 @@ Test Results of the POST request:
 > Content-Length: 47<br>
 > Content-Type: text/plain; charset=utf-8<br>
 > <br>
-> {"http://127.0.0.1:8080/bPlNFGdS"}<br>
+> http://127.0.0.1:8080/bPlNFGdS<br>
 > Connection #0 to host 127.0.0.1 left intact<br>
 > Closing connection 0<br>
 
