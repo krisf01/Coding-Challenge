@@ -116,6 +116,7 @@ func main() {
 func Teapot(writer http.ResponseWriter, req *http.Request) {
 	writer.WriteHeader(http.StatusTeapot)
 }
+
 // Unit Test Function for HTTP Handler
 func TestTeapotHandler(t *testing.T) {
 	req := httptest.NewRequest(http.MethodGet, "/", nil)
