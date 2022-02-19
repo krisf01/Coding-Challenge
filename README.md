@@ -33,6 +33,26 @@ Test Results of the GET request:
 > Closing connection 0 <br>
 
 Test Results of the POST request:
+TCP_NODELAY set<br>
+* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)<br>
+> POST /shorten HTTP/1.1<br>
+> Host: 127.0.0.1:8080<br>
+> User-Agent: curl/7.64.1<br>
+> Accept: */*<br>
+> Content-Type: application/json<br>
+> Content-Length: 72<br>
+> <br>
+> upload completely sent off: 72 out of 72 bytes<br>
+> HTTP/1.1 201 Created<br>
+> POST Request Content Type: : application/json<br>
+> Date: Sat, 19 Feb 2022 01:19:01 GMT<br>
+> Content-Length: 47<br>
+> Content-Type: text/plain; charset=utf-8<br>
+> <br>
+> http://127.0.0.1:8080/bPlNFGdS"
+> Connection #0 to host 127.0.0.1 left intact<br>
+> Closing connection 0<br>
+
 
 Test Results of the Unit Test for HTTP Handler:
 
