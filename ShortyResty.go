@@ -59,7 +59,7 @@ func redirect(writer http.ResponseWriter, req *http.Request) {
 // Shorten long URL function. Uses a map for redirect endpoint.
 func shorten(writer http.ResponseWriter, req *http.Request){
 	
-	// Variables for map
+	// Variables for finding an existing id in a map
 	var exists bool = true
 	var id string
 
@@ -112,6 +112,7 @@ func main() {
        log.Fatal(err) // checking for valid website
 	}
 }
+
 
 // Unit Test Function for HTTP Handler
 func Teapot(writer http.ResponseWriter, req *http.Request) {
