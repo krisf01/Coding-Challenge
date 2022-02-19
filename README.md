@@ -60,6 +60,7 @@ Test Results of the POST request:
 
 Test Results of the Unit Test for HTTP Handler:
 > Running tool: /usr/local/go/bin/go test -timeout 30s -run ^TestTeapotHandler$ <br>
+> <br>
 > ok      command-line-arguments  0.129s
 
 ## Resources
