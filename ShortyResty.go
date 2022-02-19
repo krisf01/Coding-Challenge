@@ -25,7 +25,7 @@ type jsonRedirect struct {
 // Map
 var pathToUrls map[string]jsonRedirect
  
-// Function to shorten the U              RL and contain an ID with random length of eight
+// Function to shorten the URL and contain an ID with random length of eight
 func string_eight() string {
 	// Characters for the ID
 	var variables = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
@@ -58,9 +58,11 @@ func redirect(writer http.ResponseWriter, req *http.Request) {
  
 // Shorten long URL function. Uses a map for redirect endpoint.
 func shorten(writer http.ResponseWriter, req *http.Request){
-       
-        var exists bool = true
+	
+	// Variables for map
+	var exists bool = true
 	var id string
+
 
 	// Label HTTP header and request the header to be returned
 	writer.Header().Set("POST Request Content Type: ", "application/json")
