@@ -58,6 +58,9 @@ func redirect(writer http.ResponseWriter, req *http.Request) {
  
 // Shorten long URL function. Uses a map for redirect endpoint.
 func shorten(writer http.ResponseWriter, req *http.Request){
+       
+        var exists bool = true
+	var id string
 
 	// Label HTTP header and request the header to be returned
 	writer.Header().Set("POST Request Content Type: ", "application/json")
@@ -75,9 +78,6 @@ func shorten(writer http.ResponseWriter, req *http.Request){
 	}
 
 	// While id exists in the map, it will generate random IDs
-	var exists bool = true
-	var id string
-
 	for exists {
 		id = string_eight()
 		if _, key := pathToUrls[id]; !key {
