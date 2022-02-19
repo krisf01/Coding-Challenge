@@ -58,7 +58,7 @@ Test Results of the POST request:
 <br>
 
 Test Results of the Unit Test for HTTP Handler:
-
+> Running tool: /usr/local/go/bin/go test -timeout 30s -run ^TestTeapotHandler$
 
 ## Resources
 * [Gophercises: URL Shortener](https://gophercises.com/)<br>
