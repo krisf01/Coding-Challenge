@@ -32,6 +32,8 @@ Test Results of the GET request:
 > Connection #0 to host 127.0.0.1 left intact <br>
 > Closing connection 0 <br>
 
+<br>
+
 Test Results of the POST request:
 > TCP_NODELAY set<br>
 > Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)<br>
@@ -53,6 +55,7 @@ Test Results of the POST request:
 > Connection #0 to host 127.0.0.1 left intact<br>
 > Closing connection 0<br>
 
+<br>
 
 Test Results of the Unit Test for HTTP Handler:
 
