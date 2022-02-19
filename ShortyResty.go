@@ -7,8 +7,8 @@ import (
    "encoding/json"
    "strings"
    "net/url"
-   "testing" // unit testing
-   "net/http/httptest" // unit testing
+   //"testing" // unit testing
+   //"net/http/httptest" // unit testing
 )
  
 
@@ -59,9 +59,10 @@ func redirect(writer http.ResponseWriter, req *http.Request) {
 // Shorten long URL function. Uses a map for redirect endpoint.
 func shorten(writer http.ResponseWriter, req *http.Request){
 	
-	// Variables for finding an existing id in a map
+	// variables for map
 	var exists bool = true
 	var id string
+
 
 	// Label HTTP header and request the header to be returned
 	writer.Header().Set("POST Request Content Type: ", "application/json")
@@ -110,23 +111,5 @@ func main() {
    // Creating web server on port 8080
    if err := http.ListenAndServe(":8080", nil); err != nil {
        log.Fatal(err) // checking for valid website
-	}
-}
-
-
-// Unit Test Function for HTTP Handler
-func Teapot(writer http.ResponseWriter, req *http.Request) {
-	writer.WriteHeader(http.StatusTeapot)
-}
-
-// Unit Test Function for HTTP Handler
-func TestTeapotHandler(t *testing.T) {
-	req := httptest.NewRequest(http.MethodGet, "/", nil)
-	res := httptest.NewRecorder()
-
-	Teapot(res, req)
-
-	if res.Code != http.StatusTeapot {
-		t.Errorf("got status %d but wanted %d", res.Code, http.StatusTeapot)
 	}
 }
