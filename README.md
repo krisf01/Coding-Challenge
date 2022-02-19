@@ -7,7 +7,11 @@ ShortyResty is a Golang REST API service that shortens URLs and allows the user 
 The reason why URLs should be optimized is to rank better in search results and to be more convenient for users to type out. Also, the benefit of URL redirects is for the user to avoid 404 error pages and ensure the best experience when visiting a webpage
 
 ## Specifications
-Create a web server on port 8080 using standard library "net/http". The program then responds to a POST request, and the endpoint should be a POST method with URL/shorten. The POST request should be in JSON as {“url”: “http://example.com/verylonguselessURLthatdoesnotseemtoend/123”}. Then the reponse should also be in JSON as {“short_url”: “http://127.0.0.1:8080/xxxxxxxx”} with an ID of a random string length of eight and be organized through the use of a map. To program then redirects the user when making a GET request, as the endpoint should be a GET method with URL/$ID. The request should be in the brower and or client to http://127.0.0.1:8080/ID and have 302 redirect the user to the long form of the URL.
+* Create a web server on port 8080 using standard library "net/http" <br>
+* The program then responds to a POST request, and the endpoint should be a POST method with URL/shorten <br>
+* * The POST request should be in JSON as {“url”: “http://example.com/verylonguselessURLthatdoesnotseemtoend/123”}<br>
+* * Then the reponse should also be in JSON as {“short_url”: “http://127.0.0.1:8080/xxxxxxxx”} with an ID of a random string length of eight and be organized through the use of a map <br>
+* The program then redirects the user when making a GET request, as the endpoint should be a GET method with URL/$ID. The request should be in the brower and or client to http://127.0.0.1:8080/ID and have 302 redirect the user to the long form of the URL
 
 ## Tests
 Test ShortyResty.go using curl within the second terminal. <br>
