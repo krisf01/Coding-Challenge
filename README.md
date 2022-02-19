@@ -33,8 +33,8 @@ Test Results of the GET request:
 > Closing connection 0 <br>
 
 Test Results of the POST request:
-TCP_NODELAY set<br>
-* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)<br>
+> TCP_NODELAY set<br>
+> Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)<br>
 > POST /shorten HTTP/1.1<br>
 > Host: 127.0.0.1:8080<br>
 > User-Agent: curl/7.64.1<br>
@@ -49,7 +49,7 @@ TCP_NODELAY set<br>
 > Content-Length: 47<br>
 > Content-Type: text/plain; charset=utf-8<br>
 > <br>
-> http://127.0.0.1:8080/bPlNFGdS"
+> "http://127.0.0.1:8080/bPlNFGdS"
 > Connection #0 to host 127.0.0.1 left intact<br>
 > Closing connection 0<br>
 
