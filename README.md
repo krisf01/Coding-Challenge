@@ -68,3 +68,4 @@ Test Results of the Unit Test for HTTP Handler:
 * [The Polyglot Developer: Create a URL Shortener with Golang and Couchbase NoSQL](https://www.youtube.com/watch?v=OVBvOuxbpHA)<br>
 * [Documenting APIs: curl into and installation](https://idratherbewriting.com/learnapidoc/docapis_install_curl.html)
 * [Learn Go with Tests: Revisiting HTTP Handlers](https://quii.gitbook.io/learn-go-with-tests/questions-and-answers/http-handlers-revisited)
+* [LogRockets: A Deep Dive into Unit Testing in Go](https://blog.logrocket.com/a-deep-dive-into-unit-testing-in-go/)
