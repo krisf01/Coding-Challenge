@@ -4,7 +4,7 @@
 ShortyResty is a Golang REST API service that shortens URLs and allows the user to be redirected to the shortened URL.
 
 ## Purpose
-The reason why URLs should be optimized is to rank better in search results and to be more convenient for users to type out. Also, the benefit of URL redirects is for the user to avoid 404 error pages and ensure the best experience when visiting a webpage.
+There are many advantages to shortened URLs as they are beneficial for businesses and are even great for aesthetic purposes. Who doesn't like a short and easy-to-type URL? Shortened URLs also rank better in search results and are more convenient for the user to type out. Along with a URL shortener, there is also a benefit to URL redirects. URL redirects are in place to allow the user to avoid 404 error pages and ensure the best experience when visiting a webpage.
 
 ## Specifications
 * Create a web server on port 8080 using standard library "net/http" <br>
